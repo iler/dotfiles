@@ -1,0 +1,22 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Ilari Mäkelä
+	email = ilari@i28.fi
+
+[core]
+  quotepath = false
+  excludesfile = /Users/iler/.gitignore
+  mergeoptions = --no-ff --no-commit
+
+[help]
+  autocorrect = 3
+
+[github]
+  user = iler
+
+[remote "origin"]
+prune = true
+
+[pager]
+  diff = diff-so-fancy | less --tabs=1,5 -RFX
+  show = diff-so-fancy | less --tabs=1,5 -RFX

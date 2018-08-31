@@ -1,0 +1,12 @@
+*.zip
+*.tar.*
+*.sql
+*.gz
+*.bz2
+*.swp
+*.cache
+.vim/bundle
+.vim/undo
+.zsh/cache
+.DS_Store
+*.retry
